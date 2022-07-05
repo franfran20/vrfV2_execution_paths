@@ -1,0 +1,10 @@
+dependencies:
+  - smartcontractkit/chainlink-brownie-contracts@0.4.1
+compiler:
+  solc:
+    remappings:
+      - "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.4.1"
+networks:
+  mumbai-alchemy:
+    vrf_coordinator: "0x7a1BaC17Ccc5b313516C5E16fb24f7659aA5ebed"
+dotenv: .env
