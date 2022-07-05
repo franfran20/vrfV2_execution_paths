@@ -1,15 +1,6 @@
 ### Prerequisites
 
-- This article assumes you have some experience with working with chainlinkVRF for getting truly random numbers for your smart contracts. If you don't, not a problem! get yourself acquinted with chainlinkVRF through their docs [here](https://docs.chain.link/docs/chainlink-vrf/) before moving forward.
-
-If you already know about Chainlink and what they do, feel free to skip this intro but I strongly advise to read through the whole article.... Let's go!
-
-## What is Chainlink?
-
-Well, if you've worked with smart contracts you'd understand that smart contracts aren't really that smart. Smart contracts live and breathe on the blockchain and don't really have an idea of what's happening outside the blockchain. At first glance, that doesn't really seem like a problem until questions like, what's the weather condition like now? how can I get a true random number outside this deterministic system(the blockchain)? how do I make API requests with my smart contracts? must I always call the functions in my smart contract to make a transaction, can't it automate the function calls itself? How do I get the price of assets that can't be manipulated?.... All these questions and problems is what Chainlink lives and breathes to solve.
-
-Chainlink is a decentralized blockchain oracle network. The network is intended to be used to facilitate the transfer of tamper-proof data (data made so that it cannot be interfered with or changed) from off-chain sources to on-chain smart contracts.
-In simple terms think of smart contracts as us human beings and the earth as the blockchain, we don't really have an idea of what's going on in the whole universe. So in order for us to have an idea of what's going on in the universe we rely on astronauts and organizations like NASA to be able to know what's going on outside the earth and be able to use that knowledge in and outside the earth. You could think of Chainlink as our very own astronauts of earth going on behalf of us to get that information we need outside the blockchain. Chainlink is super decentralized with many nodes maintaining the network. I've spoken too much about Chainlink, I'm not a developer advocate there, \*\*hire me! ; ) but I strongly advise for you to check out their documentaion [here](https://docs.chain.link/) . Get yourself familiarized with chainlink VRF before moving on.
+- This readme assumes you have some experience with working with chainlinkVRF for getting truly random numbers for your smart contracts. If you don't, not a problem! get yourself acquinted with chainlinkVRF through their docs [here](https://docs.chain.link/docs/chainlink-vrf/) before moving forward.
 
 ## ChainlinkVRF v2: Processing Different Functions ChainlinkVRF requests
 
@@ -164,4 +155,3 @@ function fulfillRandomWords(uint256 requestId, uint256[] memory randomWords)
 ## Reach Out To Me
 
 - You could give me a follow on twitter. Here's my twitter [handle](https://twitter.com/FranFran_E).
-- Give me a follow here on hasnode too. See ya!
